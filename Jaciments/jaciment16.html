@@ -3,50 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaciment [Nombre del Yacimiento]</title>
+    <title>Cova des Càrritx</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>Jaciment [Cova des Càrritx]</h1>
+        <h1>Cova des Càrritx</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inici</a></li>
                 <li><a href="epoca.html">Jaciments per època</a></li>
-                <li><a href="tipus.html">Jaciments per tipis</a></li>
+                <li><a href="tipus.html">Jaciments per tipus</a></li>
                 <li><a href="municipi.html">Jaciments per Municipi</a></li>
             </ul>
         </nav>
     </header>
 
+
+
     <main>
-        <section class="yacimiento-info">
-            <h2>Descripció històrica</h2>
-            <p> Cova funerària amb eines, ornaments i altres objectes rituals, que mostra influències culturals.</p>
-        </section>
+        <section id="description">
+            <div class="intro">
+                <h2>Descripció</h2>
+                <p>Cova funerària amb eines, ornaments i altres objectes rituals, que mostra influències culturals.</p>
+            </div>
 
-        <section class="yacimiento-type">
-            <h2>Tipus de jaciment</h2>
-            <p>Prehistòric.</p>
-        </section>
+            <h3>Ubicació</h3>
+            <p>La cova del Càrritx és una cova natural situada al barranc d'Algendar</p>
 
-        <section class="municipality-info">
-            <h2>Municipi</h2>
-            <p>Ciutadella.
-            </p>
-        </section>
+            <!-- Mapa de la localització (estático) -->
+            <div id="map">
+                <!-- Esta imagen puede ser reemplazada con un mapa estático o interactivo según lo desees -->
+                <img src="images/covadescarritx.jpg" alt="Mapa de la Cova des Càrritx" style="width:50%; height:100%; object-fit: cover;">
+            </div>
 
-        <section class="coordinates">
-            <h2>Coordenades</h2>
-            <p>Latitud:  39.9834</p>
-            <p>Longitud: 3.9061</p>
-        </section>
+            <h3>Imatges</h3>
+            <div class="gallery">
+                <img src="https://www.menorcatalayotica.info/Documents/Imatges/11271img13.jpg" alt="Cova des Càrritx">
+            </div>
 
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Descobreix els Jaciments</p>
+        <p>&copy; 2025 - Jaciments Arqueològics de les Illes Balears | Desenvolupat per [Xavier López Arribas i Alberto Vega Dagloria]</p>
     </footer>
 
 </body>
