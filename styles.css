@@ -8,13 +8,13 @@ body {
 header {
     background: #004d40;
     color: #fff;
-    padding: 1rem 0;
+    padding: 16px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 24px;
 }
 
 nav a {
@@ -37,34 +37,34 @@ nav a:hover {
 }
 
 main {
-    padding: 2rem;
+    padding: 32px;
 }
 
 .intro {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .intro p {
     max-width: 600px;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
 #categories {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .category {
     background: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 24px;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
     transition: transform 0.3s ease;
 }
 
@@ -73,15 +73,15 @@ main {
 }
 
 .category p {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .category .button {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 16px;
     background: #004d40;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -99,6 +99,6 @@ footer {
     background: #004d40;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 16px 0;
+    margin-top: 32px;
 }
