@@ -116,10 +116,6 @@ height: 400px;
 width: 100%;
 }
 
-
-
-
-
 /* Estilo para el contenedor del formulario */
 .login-container {
     background-color: #ffffff;
@@ -200,6 +196,9 @@ table {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    position: relative; /* Para permitir moverla con top y right */
+    bottom: 200px; /* Moverla un poco hacia arriba */
+    left: 200px; /* Moverla hacia la derecha */
 }
 
 thead {
